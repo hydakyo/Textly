@@ -1,5 +1,13 @@
 # Textly release history
 
+## 0.1.1
+
+- Textly accepts arbitrary file types through Open With, including extensionless files. For unfamiliar extensions, use Open With → Other → Textly. Opening uses text contents rather than a filename whitelist.
+- Repair Finder opening accepts unknown extensions and extensionless text. It preserves or creates the selected file's Textly binding so subsequent double-clicks open the editor, and backs up metadata before removing the document's download restriction.
+- Repair no longer changes this Mac's default editor for other files.
+- Binary control data is rejected even when it has no NUL bytes or carries a Unicode BOM. Named pipes are rejected without blocking the repair picker.
+- Native verification covers arbitrary filenames, UTF-16 text, selected-file repair and default OS file opening after repair.
+
 ## 0.1.0
 
 Initial Textly release for team use, distributed through this official download repository.

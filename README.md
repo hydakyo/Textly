@@ -29,7 +29,8 @@ Every release includes SHA-256 checksums and a build manifest. Put the ZIP, DMG,
 - Find/Replace with case, whole-word and regular-expression options.
 - UTF-8, UTF-16, Windows-1252 and Latin-1 support; LF, CRLF and CR line endings.
 - Local draft recovery, atomic saves, and detection of external file changes.
-- Open from Finder or drag and drop. Setting Textly as the default editor is optional.
+- Open text based on its contents, regardless of extension — including extensionless configuration files. Use ⌘O, drag and drop, or Finder → Open With → Other… → Textly.
+- If Finder blocks a text document, use Settings → Repair Finder opening… to check and repair only the selected files. Metadata is backed up; contents and extensions are preserved. Setting a default editor is optional.
 
 ⌘N New · ⌘O Open · ⌘S Save · ⌘F Find · ⌘, Settings · ⌘Q Quit.
 
