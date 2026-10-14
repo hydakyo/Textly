@@ -1,5 +1,13 @@
 # Textly release history
 
+## 0.1.2
+
+- Set as default text editor now registers the actual macOS types for TXT, Markdown, TOML, YAML, JSON, XML and common configuration extensions. A more specific TOML/INI association no longer gets missed by only setting plain text.
+- Verifies each association before confirming success and reports the file types macOS could not update.
+- First launch offers Make Default / Not Now and remembers your choice across relaunches and updates. Standard text/configuration types are registered as editor candidates; generic file handling remains an alternate.
+- Other categories such as images, archives, CSV spreadsheets and HTML browsing are outside the default-editor action.
+- Added native checks for the Settings action, default OS opening of `config.toml`, and preserving unrelated application defaults.
+
 ## 0.1.1
 
 - Textly accepts arbitrary file types through Open With, including extensionless files. For unfamiliar extensions, use Open With → Other → Textly. Opening uses text contents rather than a filename whitelist.

@@ -30,7 +30,9 @@ Every release includes SHA-256 checksums and a build manifest. Put the ZIP, DMG,
 - UTF-8, UTF-16, Windows-1252 and Latin-1 support; LF, CRLF and CR line endings.
 - Local draft recovery, atomic saves, and detection of external file changes.
 - Open text based on its contents, regardless of extension — including extensionless configuration files. Use ⌘O, drag and drop, or Finder → Open With → Other… → Textly.
-- If Finder blocks a text document, use Settings → Repair Finder opening… to check and repair only the selected files. Metadata is backed up; contents and extensions are preserved. Setting a default editor is optional.
+- On first launch, choose Make Default to use Textly for TXT, Markdown, TOML, YAML, JSON, XML and common text/configuration files. macOS may ask you to confirm replacing an existing editor. Not Now keeps your current choice; the welcome does not repeat on relaunch.
+- You can also use Settings → Set as default text editor later.
+- If Finder blocks a text document, use Settings → Repair Finder opening… to check and repair only the selected files. Metadata is backed up; contents and extensions are preserved.
 
 ⌘N New · ⌘O Open · ⌘S Save · ⌘F Find · ⌘, Settings · ⌘Q Quit.
 
