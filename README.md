@@ -27,7 +27,7 @@ Every release includes SHA-256 checksums and a build manifest. Put the ZIP, DMG,
 - Plain-text editing, line numbers, word wrap, font and size preferences.
 - Unicode and Vietnamese text handling; undo/redo remains available after switching tabs or closing and reopening the window.
 - Find/Replace with case, whole-word and regular-expression options.
-- UTF-8, UTF-16, Windows-1252 and Latin-1 support; LF, CRLF and CR line endings.
+- UTF-8, UTF-16, UTF-32 (with a byte-order mark), Windows-1252 and Latin-1 support; LF, CRLF and CR line endings.
 - Local draft recovery, atomic saves, and detection of external file changes.
 - Open text based on its contents, regardless of extension — including extensionless configuration files. Use ⌘O, drag and drop, or Finder → Open With → Other… → Textly.
 - On first launch, choose Make Default to use Textly for TXT, Markdown, TOML, YAML, JSON, XML and common text/configuration files. macOS may ask you to confirm replacing an existing editor. Not Now keeps your current choice; the welcome does not repeat on relaunch.

@@ -1,5 +1,11 @@
 # Textly release history
 
+## 0.1.3
+
+- Open UTF-32 text with a byte-order mark and recognizable UTF-16 text without one, including files with unfamiliar extensions.
+- Save edited documents back in their original Unicode encoding and byte-order-mark style.
+- Report malformed Unicode instead of falling back to a different encoding. Normal opening leaves Finder metadata untouched.
+
 ## 0.1.2
 
 - Set as default text editor now registers the actual macOS types for TXT, Markdown, TOML, YAML, JSON, XML and common configuration extensions. A more specific TOML/INI association no longer gets missed by only setting plain text.
